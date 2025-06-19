@@ -10,7 +10,8 @@ Used code from as Emulator : https://neptunjs.xyz/doc.html <br>
 
 
 <h2>Pages</h2>
-- show all wanted availble system (index.php) ;  search for rom included (zoek_roms.php)<br>
+- show all wanted availble system (index.php)<br>
+--  search for rom included (zoek_roms.php)<br>
 - indexing rom list from url ?system=$system (show.php)<br>
 - Emulator is loaded by url ?system=$system&rom=$rom (playemulator.php)<br>
 <br>
