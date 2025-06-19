@@ -2,12 +2,12 @@
 <h2>Emulate roms online</h2>
 
 
-Based on code for frame: https://github.com/hacktheme/Nice-Admin<br>
+Based on code for frame: download https://github.com/hacktheme/Nice-Admin<br>
 you need mapdirs :<br>
 -dist<br>
 -assets <br>
 and place it next to index.php<br><br>
-Used code from as Emulator : https://neptunjs.xyz/doc.html <br>
+Used code from : https://neptunjs.xyz/doc.html as Emulator <br>
 
 
 
