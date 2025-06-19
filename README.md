@@ -8,7 +8,7 @@ Used code from : https://neptunjs.xyz/doc.html as Emulator <br>
 you need mapdirs :<br>
 -dist<br>
 -assets <br>
-2) Download all code from [consolewebemulator]<br>
+2) Download all code from [consolewebemulator] here<br>
 <h3>Dir</h3>
 Dir structure should look like this <br>
 |-dist<br>
