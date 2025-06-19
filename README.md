@@ -4,13 +4,13 @@ Based on code for frame: download https://github.com/hacktheme/Nice-Admin<br>
 Used code from : https://neptunjs.xyz/doc.html as Emulator <br>
 
 <h2>Installation</h2>
-Download https://github.com/hacktheme/Nice-Admin<br>
+1) Download https://github.com/hacktheme/Nice-Admin<br>
 you need mapdirs :<br>
 -dist<br>
 -assets <br>
-Download all code from consolewebemulator
-<h2>Dir</h2>
-Dir should look like this <br>
+2) Download all code from consolewebemulator
+<h3>Dir</h3>
+Dir structure should look like this <br>
 |-dist<br>
 |-assets<br>
 |-emulators.php<br>
@@ -18,6 +18,8 @@ Dir should look like this <br>
 |-playemulator.php<br>
 |-show.php<br>
 |-zoek_roms.php<br>
+<br>
+3) upload roms in /roms/$system/<br>
 
 
 
