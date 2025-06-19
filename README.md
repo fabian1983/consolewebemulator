@@ -1,13 +1,23 @@
 # consolewebemulator
 <h2>Emulate roms online</h2>
-
-
 Based on code for frame: download https://github.com/hacktheme/Nice-Admin<br>
+Used code from : https://neptunjs.xyz/doc.html as Emulator <br>
+
+<h2>Installation</h2>
+Download https://github.com/hacktheme/Nice-Admin<br>
 you need mapdirs :<br>
 -dist<br>
 -assets <br>
-and place it next to index.php<br><br>
-Used code from : https://neptunjs.xyz/doc.html as Emulator <br>
+Download all code from consolewebemulator
+<h2>Dir</h2>
+Dir should look like this <br>
+|-dist<br>
+|-assets<br>
+|-emulators.php<br>
+|-index.php<br>
+|-playemulator.php<br>
+|-show.php<br>
+|-zoek_roms.php<br>
 
 
 
