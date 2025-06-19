@@ -18,5 +18,5 @@ Used code from as Emulator : https://neptunjs.xyz/doc.html <br>
 - Menu scan directory /roms/ and index it and make it countable.(index.php)<br>
 - Searchform does ajax call and search in /roms (zoek_roms.php)<br>
 - Images are loaded from url ?system=$system (everywhere)<br>
-- when directory is empy dont show as result, because while testing some roms dont work because of missing bios. (didnt took time to fix it)
+- when directory is empy dont show as result, because while testing some roms dont work because of missing bios. (didnt took time to fix it)<br>
 - routing so it looks like 1 file known as ? or index.php  (index.php on line 255)
