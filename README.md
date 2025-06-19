@@ -1,37 +1,54 @@
-# consolewebemulator
-<h2>Emulate roms online</h2>
-Based on code for frame: download https://github.com/hacktheme/Nice-Admin<br>
-Used code from : https://neptunjs.xyz/doc.html as Emulator <br>
+🎮 Emulate ROMs Online
+This project allows you to emulate classic game ROMs directly in the browser.
 
-<h2>Installation</h2>
-1) Download https://github.com/hacktheme/Nice-Admin<br>
-you need mapdirs :<br>
--dist<br>
--assets <br>
-2) Download all code from [consolewebemulator] here<br>
-<h3>Dir</h3>
-Dir structure should look like this <br>
-|-dist<br>
-|-assets<br>
-|-emulators.php<br>
-|-index.php<br>
-|-playemulator.php<br>
-|-show.php<br>
-|-zoek_roms.php<br>
-<br>
-3) upload roms in /roms/$system/<br>
+Frontend Framework: Based on Nice-Admin
 
+Emulator Engine: Powered by NeptunJS
 
+📦 Installation
+1. Clone Required Repositories
+Download the UI framework from: Nice-Admin
 
-<h2>Pages</h2>
-- show all wanted availble system (index.php)<br>
---  search for rom included (zoek_roms.php)<br>
-- indexing rom list from url ?system=$system (show.php)<br>
-- Emulator is loaded by url ?system=$system&rom=$rom (playemulator.php)<br>
-<br>
-<h2>Functions</h2>
-- Menu scan directory /roms/ and index it and make it countable.(index.php)<br>
-- Searchform does ajax call and search in /roms (zoek_roms.php)<br>
-- Images are loaded from url ?system=$system (everywhere)<br>
-- when directory is empy dont show as result, because while testing some roms dont work because of missing bios. (didnt took time to fix it)<br>
-- routing so it looks like 1 file known as ? or index.php  (index.php on line 255)
+Download this project (e.g., consolewebemulator) and place the required files in the same root directory.
+
+2. Required Directory Structure
+Ensure the following files and folders exist:
+
+pgsql
+Kopiëren
+Bewerken
+|- dist/
+|- assets/
+|- emulators.php
+|- index.php
+|- playemulator.php
+|- show.php
+|- zoek_roms.php
+3. Add ROM Files
+Upload your ROMs to the directory:
+
+bash
+Kopiëren
+Bewerken
+/roms/{system}/
+Replace {system} with the specific emulator system (e.g., nes, gba, snes).
+
+📄 Pages Overview
+index.php: Lists all available emulator systems
+
+zoek_roms.php: AJAX search for ROMs
+
+show.php?system={system}: Displays available ROMs for the selected system
+
+playemulator.php?system={system}&rom={rom}: Loads the emulator with the selected ROM
+
+⚙️ Core Functionality
+ROM Indexing: index.php scans /roms/ and lists available systems
+
+Search: AJAX-based ROM search via zoek_roms.php
+
+Image Handling: Images are dynamically loaded via query parameters
+
+System Filtering: Systems with empty directories are excluded from the menu (some ROMs may not work without BIOS files)
+
+Routing: Friendly routing is used via query strings (see index.php, around line 255)
