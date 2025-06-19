@@ -2,5 +2,5 @@
 Emulate roms online
 
 
-Base frame : Nice-Admin-master2018<br>
+Base frame : https://github.com/hacktheme/Nice-Admin<br>
 Emulator : https://neptunjs.xyz/doc.html
