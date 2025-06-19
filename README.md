@@ -10,8 +10,8 @@ Used code from as Emulator : https://neptunjs.xyz/doc.html <br>
 
 
 <h2>Pages</h2>
-- show availble system (index.php) ;  make ajax call search for rom included (zoek_roms.php)<br>
-- indexing rom list from selected system (show.php)<br>
+- show all wanted availble system (index.php) ;  search for rom included (zoek_roms.php)<br>
+- indexing rom list from url ?system=$system (show.php)<br>
 - Emulator is loaded by url ?system=$system&rom=$rom (playemulator.php)<br>
 <br>
 <h2>Functions</h2>
@@ -19,3 +19,4 @@ Used code from as Emulator : https://neptunjs.xyz/doc.html <br>
 - Searchform does ajax call and search in /roms (zoek_roms.php)<br>
 - Images are loaded from url ?system=$system (everywhere)<br>
 - when directory is empy dont show as result, because while testing some roms dont work because of missing bios. (didnt took time to fix it)
+- routing so it looks like 1 file known as ? or index.php  (index.php on line 255)
