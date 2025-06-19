@@ -41,8 +41,8 @@
 <ul>
   <li><code>index.php</code>: Lists all available emulator systems</li>
   <li><code>zoek_roms.php</code>: AJAX search for ROMs</li>
-  <li><code>show.php?system={system}</code>: Displays ROMs for a system</li>
-  <li><code>playemulator.php?system={system}&amp;rom={rom}</code>: Loads emulator with ROM</li>
+  <li><code>?system={system}</code>: Displays ROMs for a system</li>
+  <li><code>?system={system}&amp;rom={rom}</code>: Loads emulator with ROM</li>
 </ul>
 
 <hr>
