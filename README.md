@@ -22,6 +22,7 @@
 <pre>
 |- dist/  (from niceadmin)
 |- assets/ (from niceadmin) and  assets/images/emulator (from consolewebemulator)
+|- roms/ (from consolewebemulator)
 |- emulators.php (from consolewebemulator)
 |- index.php (from consolewebemulator)
 |- playemulator.php (from consolewebemulator)
