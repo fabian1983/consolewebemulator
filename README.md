@@ -20,13 +20,13 @@
 <h3>2. Required Directory Structure</h3>
 
 <pre>
-|- dist/
-|- assets/
-|- emulators.php
-|- index.php
-|- playemulator.php
-|- show.php
-|- zoek_roms.php
+|- dist/  (from niceadmin)
+|- assets/ (from niceadmin) and  assets/images/emulator (from consolewebemulator)
+|- emulators.php (from consolewebemulator)
+|- index.php (from consolewebemulator)
+|- playemulator.php (from consolewebemulator)
+|- show.php (from consolewebemulator)
+|- zoek_roms.php (from consolewebemulator)
 </pre>
 
 <h3>3. Add ROM Files</h3>
