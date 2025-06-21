@@ -14,7 +14,7 @@
 <h3>1. Clone Required Repositories</h3>
 <ul>
   <li>Download the UI framework: <a href="https://github.com/hacktheme/Nice-Admin">Nice-Admin</a></li>
-  <li>Download this <a href="https://github.com/fabian1983/consolewebemulator/">Consolewebemulator</a></li> 
+  <li>Download the Emulating package: <a href="https://github.com/fabian1983/consolewebemulator/">Consolewebemulator</a></li> 
 </ul>
 
 <h3>2. Required Directory Structure</h3>
